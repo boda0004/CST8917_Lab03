@@ -20,6 +20,9 @@ This project implements a Microsoft Teams **chat moderation system** using **Azu
 
 ##  Workflow Steps
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/247cc19f-7496-472e-b616-0ba91772854f" />
+
+
 1. **Trigger:** Logic App listens for a new message in a Teams channel
 2. **Condition:** Evaluates if the message contains any inappropriate words (e.g., "bad", "hate", "stupid")
 3. **If TRUE:** Sends an email notification to the admin
